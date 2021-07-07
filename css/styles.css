@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 75px;
+  background-color: #0a111d;
+  font-family: Sans-Serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+h3 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+a:link, a:focus, a:hover, a:visited, a:active {
+  color: #a98b69!important;
+}
+
+div.background {
+  /* padding: 100px; */
+  margin: 0;
+  background:
+    linear-gradient(0deg, rgba(10, 17, 29, 0.5), rgba(10, 17, 29, 1)),
+    url(../img/school.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
